@@ -1,2 +1,2 @@
 # idshwk1
-IDS homework 1
+homework1 of ids (snort rules).
