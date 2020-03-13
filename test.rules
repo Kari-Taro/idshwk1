@@ -1,4 +1,4 @@
 # detect a tcp packet with
 # Port at 1080, TCPFLAG URG set, a string “hostip” in payload 10thbyte-20th byte
 # alert message “TEST ALERT”
-alert tcp any any -> any 1080 (content:"hostip";offset:10;depth:10;flags:U;msg:"TEST ALERT";)
+alert tcp any any -> any 1080 (content:"hostip";offset:9;depth:11;flags:U;msg:"TEST ALERT";)
